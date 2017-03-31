@@ -1,0 +1,20 @@
+{
+    "currentLevel": 3,
+    "level_data": [
+        {
+            "id": 1,
+            "angle": 90,
+            "limit": 4
+        },
+        {
+            "id": 2,
+            "angle": 120,
+            "limit": 5
+        },
+        {
+            "id": 3,
+            "angle": 45,
+            "limit": 6
+        }
+    ]
+}
