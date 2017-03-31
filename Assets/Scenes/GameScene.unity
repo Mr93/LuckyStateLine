@@ -140,7 +140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d0195e19b7177a47b1534da3b8955ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 116348399f5d23242b9630aca8ffd9e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 483965680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c38f79a197f9404aaff4b11ce52ada9, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e84b7e23625a44bae0e82d2a6ae7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &483965682
@@ -386,9 +386,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 212739014676767150, guid: eafae069d432d094a884cbd9c0ce2e4e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 116348399f5d23242b9630aca8ffd9e2,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eafae069d432d094a884cbd9c0ce2e4e, type: 2}
-  m_RootGameObject: {fileID: 160998570}
   m_IsPrefabParent: 0
 --- !u!1 &1756273515
 GameObject:
@@ -552,7 +557,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0dc5f0392fadc1246bd401b87b955751, type: 3}
+    m_Font: {fileID: 12800000, guid: 954b8196aceaba8468a0555526f764f1, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
